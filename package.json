@@ -1,12 +1,26 @@
 {
-  "name": "unit6-typescript",
+  "name": "ts-intro",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/index.ts",
+    "start:dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kat-gilbert/unit6-ts-intro.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kat-gilbert/unit6-ts-intro/issues"
+  },
+  "homepage": "https://github.com/kat-gilbert/unit6-ts-intro#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
 }
